@@ -22,8 +22,7 @@ def Help() :
     taper sf2 par exemple.
 
     TODO LIST:
-    -Ajouter un chat pour transmettre l'adresse IP.
-    -Ajouter un lancement en mode solo? '''        
+    -Ajouter un chat pour transmettre l'adresse IP. '''        
 import os , urllib.request ,io ,sys ,re
 from html.parser import HTMLParser
 from tkinter import *
@@ -126,5 +125,3 @@ b2=Button(fenetre, text="Lancer" , command=launch, cursor='shuttle')
 b1.grid(row=5, column=1)
 b2.grid(row=5 , column=2)
 mainloop()
-
-
